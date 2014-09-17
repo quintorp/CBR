@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game title="Paul and the Young Church" id="">
+	<grid>FESTUS       I          L   C      ADAMASCUS  S   E      T   S     JERUSALEM   PW  R     PHILIPPI   PENTECOST SANDBAR    </grid>
+	<entry word="FESTUS" length="6" start="0" end="5"> When Paul was in jail, this new governor was appointed.</entry>
+	<entry word="DAMASCUS" length="8" start="36" end="43"> Saul was blinded on his way to this town to persecute Christians.</entry>
+	<entry word="JERUSALEM" length="9" start="67" end="75"> Before his final trip to Rome, Paul returned to this city.</entry>
+	<entry word="PHILIPPI" length="8" start="89" end="96"> Paul sailed from Troas to this town, the most important city in Macedonia.</entry>
+	<entry word="PENTECOST" length="9" start="100" end="108"> Ten days after Jesus' ascension, this feast was celebrated.</entry>
+	<entry word="SANDBAR" length="7" start="110" end="116"> On the voyage to Rome, Paul's boat ran adrift on this.</entry>
+	<entry word="SILAS" length="5" start="2" end="46"> Paul and this companion cast the evil spirit out of the fortuneteller.</entry>
+	<entry word="CAESAR" length="6" start="28" end="83"> Because he was a citizen of Rome, he had the right to have this ruler hear his case.</entry>
+	<entry word="STEPHEN" length="7" start="46" end="112"> Saul was a witness when this disciple was stoned.</entry>
+	<entry word="WIND" length="4" start="80" end="113"> When the Holy Spirit descended, there was this sound.</entry>
+</game>

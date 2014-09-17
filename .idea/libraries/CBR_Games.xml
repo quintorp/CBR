@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="CBR-Games" type="flex">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../CBR-Games/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../CBR-Games/lib" recursive="false" />
+  </library>
+</component>

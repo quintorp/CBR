@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="Words from Jesus' Birth" id="">
+	<grid>E    G   B    S  EO  LJE    N MLL EU T    E DAVID  H    C   REZ HL   HN  BAY A E  RTI A SUI BHHR EKG  ERG  EY GRNS  A JURMTY AAI HC JOSEPH ZRMC   D HTA  AFE       NU  NZO      N  S   N     A      </grid>
+	<entry word="MYRRH" length="5" start="121" end="69" />
+	<entry word="FRANKINCENSE" length="12" start="154" end="0" />
+	<entry word="GOLD" length="4" start="5" end="44" />
+	<entry word="NAZARETH" length="8" start="167" end="69" />
+	<entry word="EGYPT" length="5" start="97" end="149" />
+	<entry word="ANNA" length="4" start="189" end="150" />
+	<entry word="SIMEON" length="6" start="113" end="183" />
+	<entry word="JUDEA" length="5" start="22" end="74" />
+	<entry word="BETHLEHEM" length="9" start="9" end="121" />
+	<entry word="DAVID" length="5" start="44" end="48" />
+	<entry word="AUGUSTUS" length="8" start="74" end="179" />
+	<entry word="CAESAR" length="6" start="130" end="60" />
+	<entry word="JOHN" length="4" start="118" end="163" />
+	<entry word="JOSEPH" length="6" start="132" end="137" />
+	<entry word="MARY" length="4" start="30" end="75" />
+	<entry word="GABRIEL" length="7" start="99" end="21" />
+	<entry word="ZECHARIAH" length="9" start="168" end="64" />
+	<entry word="ELIZABETH" length="9" start="17" end="137" />
+	<entry word="HEROD" length="5" start="94" end="146" />
+</game>

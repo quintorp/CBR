@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game title="Words from Jesus' Disciples" id="">
+	<grid>          D GALILEE  I   C      S   A  J   C SYNAGOGUEI   A  R   P      DEVIL    D A   E   JOHN   S    V          E      </grid>
+	<entry word="GALILEE" length="7" start="12" end="18"> Jesus calmed the storm on the Sea of _____.</entry>
+	<entry word="SYNAGOGUE" length="9" start="45" end="53"> The Jews prayed and read the scriptures in the _____.</entry>
+	<entry word="DEVIL" length="5" start="72" end="76"> Jesus was tempted by the _____.</entry>
+	<entry word="JOHN" length="4" start="91" end="94"> The prophet who wore camel hair clothes and ate locusts and wild honey was named _____.</entry>
+	<entry word="DISCIPLES" length="9" start="10" end="98"> The twelve men who followed Jesus were called his _____.</entry>
+	<entry word="CANA" length="4" start="25" end="58"> Jesus turned water into wine at the wedding in _____.</entry>
+	<entry word="JORDAN" length="6" start="39" end="94"> Jesus was baptized in the river _____.</entry>
+	<entry word="DOVE" length="4" start="81" end="114"> When Jesus was baptized, the spirit came down on him like a _____.</entry>
+</game>

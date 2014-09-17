@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Cartogrammar" type="flex">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Flash/Libraries-Active/Cartogrammar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

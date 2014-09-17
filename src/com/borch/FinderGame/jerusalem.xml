@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="People from Jesus' Passion" id="">
+	<grid>  O     R    M L    E  J  ERI   P E  T ROV JPR  D EMCOEAU    O MYHSSSD  P NSPSAT  A  ASKOLTNE  SSILVEREITR  K EM Y  CS   RGETHSEMANE          L </grid>
+	<entry word="KISS" length="4" start="108" end="75" />
+	<entry word="GETHSEMANE" length="10" start="122" end="131" />
+	<entry word="ROOSTER" length="7" start="27" end="105" />
+	<entry word="SUPPER" length="6" start="68" end="8" />
+	<entry word="MYSTICAL" length="8" start="51" end="142" />
+	<entry word="PASSOVER" length="8" start="44" end="121" />
+	<entry word="SILVER" length="6" start="96" end="101" />
+	<entry word="JUDAS" length="5" start="43" end="95" />
+	<entry word="OLIVES" length="6" start="2" end="67" />
+	<entry word="TEMPLE" length="6" start="37" end="102" />
+	<entry word="MERCHANTS" length="9" start="13" end="117" />
+	<entry word="DONKEY" length="6" start="48" end="113" />
+	<entry word="PALM" length="4" start="72" end="111" />
+	<entry word="JERUSALEM" length="9" start="23" end="111" />
+</game>

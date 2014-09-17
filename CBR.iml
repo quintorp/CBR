@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="Flex.Build.Configuration">
+    <option name="TARGET_PLAYER_VERSION" value="10.2.0" />
+    <option name="VERSION" value="3" />
+  </component>
+  <component name="FlexBuildConfigurationManager" active="CBR">
+    <configurations>
+      <configuration name="CBR" pure-as="true" output-file="CBR.swf" output-folder="$MODULE_DIR$/out/production/CBR">
+        <dependencies target-player="10.2">
+          <entries>
+            <entry library-name="CBR-Games" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="CasaLib" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Greensock" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Borch" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="baf1be45-45d5-4897-a005-051b61e92e82">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="Flex 4.5" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false" />
+          </map>
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Flex 4.5" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="CasaLib" level="application" />
+    <orderEntry type="library" exported="" name="Greensock" level="application" />
+    <orderEntry type="library" exported="" name="CBR-Games" level="project" />
+    <orderEntry type="library" name="Borch" level="application" />
+    <orderEntry type="module-library">
+      <library type="flex">
+        <properties id="baf1be45-45d5-4897-a005-051b61e92e82" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Flash/Libraries-Active/Console2.6+asdoc.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

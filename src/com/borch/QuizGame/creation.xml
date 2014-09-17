@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><game title="Quiz: Creation &amp; the patriarchs" id="creation">
+	<entry>
+		<question>God told Adam and Eve not to eat what?</question>
+		<answer>The fruit of a certain tree</answer>
+		<choice>Animals with cloven hooves</choice>
+		<choice>Fish with scales</choice>
+		<choice>Insects</choice>
+	</entry>
+	<entry>
+		<question>Of all the creatures God created, which was most devious?</question>
+		<answer>The snake</answer>
+		<choice>The squirrel</choice>
+		<choice>The cat</choice>
+		<choice>The crow</choice>
+	</entry>
+	<entry>
+		<question>Cain killed Abel because:</question>
+		<answer>Abel’s sacrifices were more acceptable to God</answer>
+		<choice>Eve loved Abel more than Cain</choice>
+		<choice>Abel stole from Cain’s flock</choice>
+		<choice>Abel was a better farmer than Cain</choice>
+	</entry>
+	<entry>
+		<question>How long did the rain fall during Noah’s Journey?</question>
+		<answer>Forty days and forty nights</answer>
+		<choice>Seven days and nights</choice>
+		<choice>A year and a day</choice>
+		<choice>28 days</choice>
+	</entry>
+	<entry>
+		<question>When the rain stopped, where did Noah’s ark come to rest?</question>
+		<answer>On Mount Ararat</answer>
+		<choice>On Mount Sinai</choice>
+		<choice>In the Dead Sea</choice>
+		<choice>In the Jordan River</choice>
+	</entry>
+	<entry>
+		<question>When they became too proud, God mixed up the language of the people from where?</question>
+		<answer>Babel</answer>
+		<choice>Jerusalem</choice>
+		<choice>Egypt</choice>
+		<choice>Haran</choice>
+	</entry>
+	<entry>
+		<question>What was the name of the land God promised to Abraham?</question>
+		<answer>Canaan</answer>
+		<choice>Horeb</choice>
+		<choice>Haran</choice>
+		<choice>Babel</choice>
+	</entry>
+	<entry>
+		<question>What does the name “Isaac” mean?</question>
+		<answer>Laughter</answer>
+		<choice>Peace</choice>
+		<choice>God is great</choice>
+		<choice>I Am</choice>
+	</entry>
+	<entry>
+		<question>How did Eleazar know that Rebecca was the right choice for Isaac?</question>
+		<answer>She gave water to his camels</answer>
+		<choice>She made him a tasty meal</choice>
+		<choice>She sewed him a coat of many colors</choice>
+		<choice>She sang so beautifully</choice>
+	</entry>
+	<entry>
+		<question>Esau sold his birthright to Jacob for what?</question>
+		<answer>A bowl of lentils</answer>
+		<choice>The skin of a deer</choice>
+		<choice>Twelve sheep</choice>
+		<choice>A silver goblet</choice>
+	</entry>
+	<entry>
+		<question>After Jacob wrestled with the angel, his name was changed to:</question>
+		<answer>Israel</answer>
+		<choice>Joshua</choice>
+		<choice>Laban</choice>
+		<choice>Joseph</choice>
+	</entry>
+</game>

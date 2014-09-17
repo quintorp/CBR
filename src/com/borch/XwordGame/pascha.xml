@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+	<game title="Words from Jesus' Death and Resurrection" id="">
+		<grid>     PALM  GARDEN A   COLT  R STONEE  Y  H PNR  B PILATE  R  E SOULSI  F C    G  EPHRAIMH  HEAVEN T </grid>
+		<entry word="PALM" length="4" start="5" end="8"> The Sunday before Easter is called _______ Sunday.</entry>
+		<entry word="GARDEN" length="6" start="11" end="16"> Gethsemane was a _______ where Jesus prayed</entry>
+		<entry word="COLT" length="4" start="22" end="25"> Jesus rode a _______ into Jerusalem on Palm Sunday.</entry>
+		<entry word="STONE" length="5" start="30" end="34"> An angel rolled away the _______ that covered the tomb.</entry>
+		<entry word="PILATE" length="6" start="50" end="55"> Jesus was sentenced to die by Pontius  _______.</entry>
+		<entry word="SOULS" length="5" start="63" end="67"> Commemoration of the Dead, a service held during lent-Saturday of the _______.</entry>
+		<entry word="EPHRAIM" length="7" start="81" end="87"> A prayer with prostrations during Lent</entry>
+		<entry word="HEAVEN" length="6" start="91" end="96"> 40 days after His resurrection, Jesus ascended to _______.</entry>
+		<entry word="PETER" length="5" start="5" end="45"> Disciple who denied knowing Jesus</entry>
+		<entry word="MARY" length="4" start="8" end="38"> The resurrected Christ was found first by  _______ Magdalene.</entry>
+		<entry word="LENT" length="4" start="24" end="54"> Before we celebrate Easter, we observe 40 days of _______.</entry>
+		<entry word="THIEF" length="5" start="31" end="71"> The _______ said</entry>
+		<entry word="PASCHA" length="6" start="43" end="93"> Orthodox word for Easter</entry>
+		<entry word="BRIGHT" length="6" start="48" end="98"> The week following Holy Week is called _______ Week.</entry>
+	</game>

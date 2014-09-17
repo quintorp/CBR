@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="Old Testament Prophets" id="">
+	<grid> ABEDNEGO I H BI    DSHATN  S AAA BE  H RLNILVXZA I OIAEATD U J EH  R SA  AL  A H  MESHACH JEREMIAH </grid>
+	<entry word="ABEDNEGO" length="8" start="1" end="8" />
+	<entry word="MESHACH" length="7" start="83" end="89" />
+	<entry word="SHADRACH" length="8" start="28" end="98" />
+	<entry word="DARIUS" length="6" start="20" end="70" />
+	<entry word="DANIEL" length="6" start="20" end="75" />
+	<entry word="NINEVEH" length="7" start="5" end="65" />
+	<entry word="JONAH" length="5" start="62" end="22" />
+	<entry word="JEREMIAH" length="8" start="91" end="98" />
+	<entry word="AHAZ" length="4" start="74" end="47" />
+	<entry word="ISAIAH" length="6" start="10" end="65" />
+	<entry word="ELIJAH" length="6" start="35" end="80" />
+	<entry word="BAAL" length="4" start="14" end="41" />
+	<entry word="AHAB" length="4" start="1" end="34" />
+</game>

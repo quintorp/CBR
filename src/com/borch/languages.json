@@ -1,0 +1,8 @@
+{
+    "default": "English",
+    "options":{
+        "English": "cbr-eng.xml",
+        "Ελληνικά":"cbr-grk.xml"
+    },
+    "popup": "<languagePopup><title>Select Language</title><main>Please select a language:</main></languagePopup>"
+}

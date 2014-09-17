@@ -1,0 +1,11 @@
+<game title="The Prophecies of Isaiah" id="isaiah">
+  <grid>      C     C  WOMAN  H   U   L IMMANUELI L   S   GOD  PEACEH     L   T     L         O    FATHER   </grid>
+  <entry word="WOMAN" length="5" start="15" end="19" dir="across">A young _____ will become pregnant and have a son.</entry>
+  <entry word="IMMANUEL" length="8" start="32" end="39" dir="across">His name will be "_____," which means "the Lord is with us."</entry>
+  <entry word="GOD" length="3" start="50" end="52" dir="across">He will be called "Mighty _________."</entry>
+  <entry word="PEACE" length="5" start="55" end="59" dir="across">He will be called "Prince of _________."</entry>
+  <entry word="FATHER" length="6" start="91" end="96" dir="across">He will be called "Eternal _________."</entry>
+  <entry word="COUNSELLOR" length="10" start="6" end="96" dir="down">He will be called "Wonderful _________."</entry>
+  <entry word="CHILD" length="5" start="12" end="52" dir="down">Unto us a _____ is born!</entry>
+  <entry word="LIGHT" length="5" start="30" end="70" dir="down">The people who walked in darkness have seen a great _____.</entry>
+</game>

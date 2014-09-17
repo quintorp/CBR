@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="Words from Jesus' Disciples" id="">
+	<grid> JC    W    OGALILEE   RP PJ D   BD A EAD    AE R RI    NPS A NR  CPETERLGAU  A  IR Y US  N  ST Z MNAZARETH E  CENTURIOND</grid>
+	<entry word="CENTURION" length="9" start="111" end="119" />
+	<entry word="JAIRUS" length="6" start="27" end="87" />
+	<entry word="PARALYZED" length="9" start="24" end="120" />
+	<entry word="WEDDING" length="7" start="7" end="73" />
+	<entry word="CANA" length="4" start="66" end="102" />
+	<entry word="PETER" length="5" start="67" end="71" />
+	<entry word="GALILEE" length="7" start="13" end="19" />
+	<entry word="CAPERNAUM" length="9" start="2" end="98" />
+	<entry word="NAZARETH" length="8" start="99" end="106" />
+	<entry word="DESERT" length="6" start="34" end="94" />
+	<entry word="JORDAN" length="6" start="1" end="56" />
+	<entry word="BAPTIST" length="7" start="33" end="105" />
+</game>

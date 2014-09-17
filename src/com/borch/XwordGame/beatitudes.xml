@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game title="The Beatitudes" id="beatitudes">
+  <grid>C  M   M  H MEEK O  I  R   U  L  CSPIRITD  Y HUNGER    E    E  HEAVEN N    R         T</grid>
+  <entry word="MEEK" length="4" start="20" end="23">Blessed are the _______</entry>
+  <entry word="SPIRIT" length="6" start="42" end="47">Blessed are the poor in _______</entry>
+  <entry word="HUNGER" length="6" start="53" end="58">Blessed are they who _______ and thirst for righteousness, for they shall be satisfied.</entry>
+  <entry word="HEAVEN" length="6" start="71" end="76">Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of _______.</entry>
+  <entry word="CHILDREN" length="8" start="8" end="78">Blessed are the peacemakers, for they shall be called _______ of God.</entry>
+  <entry word="MERCY" length="5" start="11" end="51">Blessed are the merciful, for they shall obtain _______.</entry>
+  <entry word="MOURN" length="5" start="15" end="55">Blessed are they who _______</entry>
+  <entry word="HEART" length="5" start="53" end="93">Blessed are the pure of _______, for they shall see God.</entry>
+</game>

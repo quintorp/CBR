@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="Paul's Epistles" id="">
+	<grid>            TCOLOSSIANS  H     R  N   E      OA    S    STIMOTHYSCORINTHIANS A    A    N  LPHILIPPIANS O  A S   T   N G  E    I  I    H     T A    P      UNPHILEMON    S</grid>
+	<entry word="PHILEMON" length="8" start="156" end="163" />
+	<entry word="TITUS" length="5" start="112" end="168" />
+	<entry word="TIMOTHY" length="7" start="57" end="63" />
+	<entry word="THESSALONIANS" length="13" start="12" end="168" />
+	<entry word="COLOSSIANS" length="10" start="13" end="22" />
+	<entry word="PHILIPPIANS" length="11" start="91" end="101" />
+	<entry word="EPHESIANS" length="9" start="160" end="56" />
+	<entry word="GALATIANS" length="9" start="118" end="22" />
+	<entry word="CORINTHIANS" length="11" start="65" end="75" />
+	<entry word="ROMANS" length="6" start="31" end="101" />
+</game>

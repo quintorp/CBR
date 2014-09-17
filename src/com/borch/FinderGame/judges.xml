@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="People from the Books of Judges" id="">
+	<grid>  SOLOMON   MJ  PHILISTINE O   HZ     HL N   A JESSE E A  OL H DL  U T B IOTAHU  M HRMDLXVTKA OAEA UIEIE ESAMSON HTDB NLB SP AS  HIO A AH  K   MEARMNR   L  ODCANAANITEE AI K MHHANNAHNGOLIATH      </grid>
+	<entry word="SOLOMON" length="7" start="2" end="8" />
+	<entry word="JONATHAN" length="8" start="13" end="111" />
+	<entry word="PHILISTINE" length="10" start="16" end="25" />
+	<entry word="GOLIATH" length="7" start="183" end="189" />
+	<entry word="DAVID" length="5" start="63" end="115" />
+	<entry word="JESSE" length="5" start="47" end="51" />
+	<entry word="SAUL" length="4" start="106" end="64" />
+	<entry word="SAMUEL" length="6" start="109" end="39" />
+	<entry word="ELI" length="3" start="101" end="73" />
+	<entry word="SHILOH" length="6" start="126" end="61" />
+	<entry word="HANNAH" length="6" start="176" end="181" />
+	<entry word="ELKANAH" length="7" start="167" end="83" />
+	<entry word="BOAZ" length="4" start="71" end="32" />
+	<entry word="MOAB" length="4" start="81" end="120" />
+	<entry word="BETHLEHEM" length="9" start="116" end="12" />
+	<entry word="NAOMI" length="5" start="182" end="130" />
+	<entry word="RUTH" length="4" start="84" end="129" />
+	<entry word="DELILAH" length="7" start="115" end="31" />
+	<entry word="SAMSON" length="6" start="106" end="111" />
+	<entry word="MANASSEH" length="8" start="174" end="83" />
+	<entry word="OPHRAH" length="6" start="110" end="175" />
+	<entry word="AMALEK" length="6" start="161" end="91" />
+	<entry word="MIDIAN" length="6" start="85" end="160" />
+	<entry word="GIDEON" length="6" start="183" end="118" />
+	<entry word="BARAK" length="5" start="120" end="172" />
+	<entry word="CANAANITE" length="9" start="158" end="166" />
+	<entry word="DEBORAH" length="7" start="86" end="176" />
+</game>

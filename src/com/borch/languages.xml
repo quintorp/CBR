@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<languageXML>
+    <!-- FIRST LANGUAGE IN LIST IS DEFAULT -->
+    <lang>
+        <name>English</name>
+        <url>cbr-eng.xml</url>
+    </lang>
+    <lang>
+        <name>Ελληνικά</name>
+        <url>cbr-grk.xml</url>
+    </lang>
+    <popup>
+        <title>Select Language</title>
+        <body>Please select a language:</body>
+    </popup>
+</languageXML>

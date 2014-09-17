@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="People &amp; Places from Jesus' Passion" id="">
+	<grid>        N    P    TEI    PE  B HCL   E NER AO  DET STM ODR  HE CMEM EONAPRLRGACAMM SEBIIOSGOU  EST BL  DSS SOS EGAA AT OJ  SORGSTL J    TI    E    THOMAS  NARIMATHEAH  E</grid>
+	<entry word="PENTECOST" length="9" start="13" end="117" />
+	<entry word="THOMAS" length="6" start="147" end="152" />
+	<entry word="EMMAUS" length="6" start="40" end="105" />
+	<entry word="JOSES" length="5" start="131" end="83" />
+	<entry word="JOSEPH" length="6" start="120" end="60" />
+	<entry word="NICODEMUS" length="9" start="8" end="104" />
+	<entry word="MAGDALENE" length="9" start="64" end="168" />
+	<entry word="ARIMATHEA" length="9" start="156" end="164" />
+	<entry word="GOLGOTHA" length="8" start="76" end="160" />
+	<entry word="THORNS" length="6" start="18" end="83" />
+	<entry word="BARABBAS" length="8" start="29" end="127" />
+	<entry word="PILATE" length="6" start="72" end="142" />
+	<entry word="MESSIAH" length="7" start="81" end="165" />
+	<entry word="GALILEE" length="7" start="126" end="48" />
+	<entry word="ROOSTER" length="7" start="41" end="125" />
+	<entry word="SCRIBES" length="7" start="51" end="123" />
+	<entry word="ELDERS" length="6" start="19" end="89" />
+	<entry word="PETER" length="5" start="25" end="73" />
+</game>

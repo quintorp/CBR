@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="Words from the Story of Moses" id="">
+    <grid> E PHARAOHJ G    H  AO YSQC A E S PIUNC S THRTNA MD  EUANAI E JKMA RILR  AAPIO    RN ALN   K SMOSES </grid>
+	<entry word="EGYPT" length="5" start="1" end="45" />
+	<entry word="REDSEA" length="6" start="70" end="20" />
+	<entry word="PHARAOH" length="7" start="3" end="9" />
+	<entry word="MOSES" length="5" start="94" end="98" />
+	<entry word="AARON" length="5" start="47" end="87" />
+	<entry word="MIRIAM" length="6" start="49" end="94" />
+	<entry word="QUAIL" length="5" start="25" end="69" />
+	<entry word="MANNA" length="5" start="64" end="28" />
+	<entry word="SINAI" length="5" start="24" end="68" />
+	<entry word="JOSHUA" length="6" start="10" end="65" />
+	<entry word="TEMPLE" length="6" start="42" end="97" />
+	<entry word="ARK" length="3" start="73" end="91" />
+	<entry word="CANAAN" length="6" start="38" end="83" />
+	<entry word="SNAKE" length="5" start="93" end="53" />
+	<entry word="JERICHO" length="7" start="62" end="8" />
+</game>

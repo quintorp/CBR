@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<game option="FinderGame" title="Words from stories about Jesus" id="">
+	<grid>         L     C S  A       H AG      E  IIBM EP  R JDLEBUHD  U OELDGA R  TRSAROR TE  PSS GI E H  IU AS C NP NR NE   H EGECYE     OHJ SAMARITANS</grid>
+	<entry word="PRODIGAL" length="8" start="86" end="9" />
+	<entry word="SHEPHERD" length="8" start="143" end="59" />
+	<entry word="JERICHO" length="7" start="52" end="130" />
+	<entry word="JERUSALEM" length="9" start="132" end="44" />
+	<entry word="SAMARITAN" length="9" start="134" end="142" />
+	<entry word="SYNAGOGUE" length="9" start="134" end="46" />
+	<entry word="SCRIPTURE" length="9" start="134" end="38" />
+	<entry word="PHARISEE" length="8" start="47" end="124" />
+	<entry word="SABBATH" length="7" start="17" end="95" />
+	<entry word="BLESSING" length="8" start="43" end="120" />
+	<entry word="CHILDREN" length="8" start="15" end="106" />
+</game>
