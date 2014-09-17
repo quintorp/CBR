@@ -1,4 +1,6 @@
 package com.borch {
+//  FIRST GIT COMMIT 17 SEPT 14
+
 	import com.greensock.TweenMax;
 	import com.greensock.easing.Cubic;
 
@@ -42,9 +44,9 @@ package com.borch {
 			addEventListener ('languageSetup', languageSetup, false, 0, true);
 			addChild (languageXMLLoader);
 		}
-		private function languageXMLLoaded (e:Event):void {
+		private function languageXMLLoaded(e:Event):void {
 			languageXML = XML (e.target.contents);
-			CBRXML.the().loadXML (languageXML.lang[0].url, languageXML.lang[0].name);
+			CBRXML.the ().loadXML (languageXML.lang[0].url, languageXML.lang[0].name);
 			interfaceSetup ();
 			if (languageXML.lang.length () < 2) {
 				MenuLanguage.visible = false;
@@ -54,9 +56,9 @@ package com.borch {
 			var options:String = '';
 			for each (var lang:XML in languageXML.lang) options += lang.name + '|';
 			languageXML.popup.options = options.substr (0, options.length - 1);
-			addChild( new GamePopup (languageXML.popup, 0, false));
+			addChild (new GamePopup (languageXML.popup, 0, false));
 		}
-		private function languageSetup (e:Event = null):void {
+		private function languageSetup(e:Event = null):void {
 //			ADD MAIN GROUP BUTTONS
 			var ActiveGroup:String = null;
 			if (GroupBtnSet) {
@@ -64,11 +66,11 @@ package com.borch {
 				if (GroupBtnSet.getChildIndex (GroupBtnBG)) ActiveGroup = GroupBtnSet.getChildAt (GroupBtnSet.numChildren - 1).name;
 				Destroy.it (GroupBtnSet);
 			}
-			GroupBtnSet = new (getDefinitionByName ('GroupBtns' + CBRXML.the().lang) as Class);
+			GroupBtnSet = new (getDefinitionByName ('GroupBtns' + CBRXML.the ().lang) as Class);
 			addChildAt (GroupBtnSet, getChildIndex (Overlay));
 			for each (GroupBtn in Util.childArray (GroupBtnSet)) GroupBtn.init ();
 			GroupBtnBG = GroupBtnSet.addChild (new Backdrop (GroupBtnSet, [0x2976C0, 0xA8E8E7], 1, true));
-			(ActiveGroup) ? GroupBtnSet[ActiveGroup].bringFront () : null;
+			(ActiveGroup) ? GroupBtnSet[ActiveGroup].bringFront ():null;
 		}
 		private function interfaceSetup():void {
 			addEventListener ('buttonClick', buttonClick, false, 0, true);
@@ -94,7 +96,7 @@ package com.borch {
 		private function activateGroup(e:Event):void {
 //			EACH OF THE GROUP BUTTONS IS NAMED TO CORRESPOND TO AN XML GROUP
 			if (EntryButtonField.instance) Destroy.it (EntryButtonField.instance);
-			var layer:int = (StoryManager.instance) ? this.getChildIndex(StoryManager.instance) : this.numChildren;
+			var layer:int = (StoryManager.instance) ? this.getChildIndex (StoryManager.instance):this.numChildren;
 			addChildAt (new EntryButtonField (CBRXML.the ().xml.groups [e.target.name]), layer - 1);
 
 //			TRANSITION FROM HOME TO GROUP
@@ -105,24 +107,23 @@ package com.borch {
 			Util.asButton (MenuHome, true);
 		}
 		private function getRelatedEntry(e:Event):* {
-			if (e.target.type == 'bible') return addChild (new Reader (e.target.bible, CBRXML.the().xml.bible + e.target.bible.@reference, parseInt(CBRXML.the().xml.readerBGColor,16),.7));
+			if (e.target.type == 'bible') return addChild (new Reader (e.target.bible, CBRXML.the ().xml.bible + e.target.bible.@reference, parseInt (CBRXML.the ().xml.readerBGColor, 16), .7));
 
-			var newEntryXML:XML = CBRXML.the().xml.groups.*.*.(title == e.target.title)[0];
+			var newEntryXML:XML = CBRXML.the ().xml.groups.*.*.(title == e.target.title)[0];
 			if (!newEntryXML) return trace ('No entry found for related entry button: ' + e.target.name);
 			removeEntry ();
 			getEntry (newEntryXML);
 		}
-		public function getEntry (entryObj:Object = 0):void {
+		public function getEntry(entryObj:Object = 0):void {
 			Mouse.show ();
-			var Entry:MovieClip,
-				entryXML:XML;
+			var Entry:MovieClip, entryXML:XML;
 			Destroy.it (GamePopup.instance, .7);
 			if (entryObj is XML) {
 				entryXML = entryObj;
 			} else if (entryObj is TextEvent) {
-				entryXML = XML (CBRXML.the().xml.groups.*.*.(elements ('id') == entryObj.text));
+				entryXML = XML (CBRXML.the ().xml.groups.*.*.(elements ('id') == entryObj.text));
 			} else if (entryObj is int) {
-				entryXML = XML (CBRXML.the().xml.groups.*.*.(elements ('id') == entryObj));
+				entryXML = XML (CBRXML.the ().xml.groups.*.*.(elements ('id') == entryObj));
 			} else if (entryObj is String) {
 				entryXML = entryObj;
 			}
@@ -135,8 +136,8 @@ package com.borch {
 		private function buttonClick(clickEvent:Event):void {
 			var Btn:MovieClip = MovieClip (clickEvent.target);
 			if (languageXML.lang.(name == Btn.name).length()) {
-				if (Btn.name == CBRXML.the().lang) return;
-				CBRXML.the().loadXML (languageXML.lang.(name == Btn.name)[0].url, Btn.name);
+				if (Btn.name == CBRXML.the ().lang) return;
+				CBRXML.the ().loadXML (languageXML.lang.(name == Btn.name)[0].url, Btn.name);
 				return;
 			}
 
@@ -146,10 +147,10 @@ package com.borch {
 					break;
 				case 'AUTOPLAY' :
 					Btn.parent.gotoAndStop (3 - Btn.parent.currentFrame);
-					CBRXML.the().autoPlay = Boolean (2 - Btn.parent.currentFrame);
+					CBRXML.the ().autoPlay = Boolean (2 - Btn.parent.currentFrame);
 					break;
 				case 'MENUSTORIES' :
-					addChild (new GamePopup (CBRXML.the().xml.storyGroups, 0, true));
+					addChild (new GamePopup (CBRXML.the ().xml.storyGroups, 0, true));
 					return;
 				case 'HOME' :
 				case 'MENUHOME' :
@@ -162,7 +163,7 @@ package com.borch {
 					Util.asButton (MenuHome, false);
 					break;
 				case 'MENUHELP' :
-					addChild (new GamePopup (CBRXML.the().xml.globalHelp, 0, true));
+					addChild (new GamePopup (CBRXML.the ().xml.globalHelp, 0, true));
 					break;
 				case 'TESTOLDBTN' :
 					switchTestaments ('prophets');
@@ -171,20 +172,20 @@ package com.borch {
 					switchTestaments ('jesus');
 					break;
 				case 'MENUGAMES' :
-					addChild (new GamePopup (CBRXML.the().xml.gameTypes, 0, true));
+					addChild (new GamePopup (CBRXML.the ().xml.gameTypes, 0, true));
 					break;
 				case 'MENULANGUAGE' :
 					addChild (new GamePopup (languageXML.popup, 0, false));
 					break;
 				case 'MENUCOLORING' :
-					addChild (new EntryTypeMenu(CBRXML.the().getGameTypeXML ('Coloring'), CBRXML.the().xml.coloringTitle));
+					addChild (new EntryTypeMenu (CBRXML.the ().getGameTypeXML ('Coloring'), CBRXML.the ().xml.coloringTitle));
 					break;
 				default :
-					var gameOptions:Array = CBRXML.the().xml.gameTypes.options.split ('|');
+					var gameOptions:Array = CBRXML.the ().xml.gameTypes.options.split ('|');
 					if (gameOptions.indexOf (Btn.name) != -1) {
-						addChild (new EntryTypeMenu (CBRXML.the().getGameTypeXML (Btn.name), Btn.name + ' ' + CBRXML.the().xml.gameTitle));
+						addChild (new EntryTypeMenu (CBRXML.the ().getGameTypeXML (Btn.name), Btn.name + ' ' + CBRXML.the ().xml.gameTitle));
 					} else {
-						var newGroup:XMLList = CBRXML.the().xml.groups.*.(@title == Btn.name);
+						var newGroup:XMLList = CBRXML.the ().xml.groups.*.(@title == Btn.name);
 						if (newGroup.length ()) {
 							switchGroups (newGroup[0].name ());
 						} else {
@@ -196,7 +197,7 @@ package com.borch {
 			clickEvent.stopPropagation ();
 		}
 		private function switchTestaments(newGroupName:String):void {
-			var NewTest:Boolean = CBRXML.the().xml.groups [newGroupName].childIndex () >= 6;
+			var NewTest:Boolean = CBRXML.the ().xml.groups [newGroupName].childIndex () >= 6;
 			TweenMax.to (GroupBtnSet, .5, {x:-200 * int (NewTest) });
 			Overlay.TestOldBtn.visible = NewTest;
 			Overlay.TestNewBtn.visible = !NewTest;
@@ -204,10 +205,10 @@ package com.borch {
 		private static function removeEntry(e:Event = null):void {
 			Mouse.show ();
 			if (StoryManager.instance) {
-				StoryManager.instance.dispatchEvent(new Event('stopPlay', true, true));
+				StoryManager.instance.dispatchEvent (new Event ('stopPlay', true, true));
 				Destroy.it (StoryManager.instance, .6);
 			}
-			if (GameManager.instance) GameManager.instance.dispatchEvent(new Event ('cleanup', true, true));
+			if (GameManager.instance) GameManager.instance.dispatchEvent (new Event ('cleanup', true, true));
 		}
 		public function putInSWFArchive(story:Story):void {
 			if (loadedStories [story.url]) return;
@@ -224,11 +225,11 @@ package com.borch {
 			switchTestaments (newGroupName);
 			TweenMax.delayedCall (.5, activateNewGroup, [GroupBtnSet [newGroupName]]);
 		}
-		private static function activateNewGroup (NewGroup:ButtonGroup):void {
+		private static function activateNewGroup(NewGroup:ButtonGroup):void {
 			NewGroup.dispatchEvent (new Event ('buttonClick', true, true));
 		}
-		public static function get instance ():Main { return _instance; }
-		public function get baseURL ():String { return _baseURL; }
-		public function get PrintLogo ():Class { return GOARCH_logo; }
+		public static function get instance():Main { return _instance; }
+		public function get baseURL():String { return _baseURL; }
+		public function get PrintLogo():Class { return GOARCH_logo; }
 	}
 }
